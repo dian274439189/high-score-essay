@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "portable": true,
+  "skill_root": ".",
+  "resources": {
+    "l1_core": "references/L1_识别核心.md",
+    "recognition_contract": "references/调用契约_识别核心.md",
+    "recognition_gate": "references/识别门禁.md",
+    "three_step": "references/三步口径.md",
+    "error_patterns": "references/error-patterns.md",
+    "word_output": "references/word-output.md",
+    "audit_output": "references/审核_output.md",
+    "question_validity": "references/题面有效性审查.md",
+    "answer_cross_check": "references/答案交叉论证.md",
+    "source_data_contract": "references/数据契约.md",
+    "book_builder": "scripts/build_books.py",
+    "source_docx_kit": "scripts/docx_kit.py",
+    "rubric": "references/作文评分口径.md",
+    "minimal_edit": "references/最小改动方法.md",
+    "variant_design": "references/变式题目设计.md",
+    "data_contract": "references/数据契约_作文.md",
+    "plain_language": "references/白话改写规则.md",
+    "acceptance": "references/验收清单.md",
+    "engines_map": "references/engines-map.md",
+    "docx_kit": "scripts/docx_kit_local.py",
+    "sample_data": "assets/样例数据_2026-11-22_九年级语文作文.json"
+  },
+  "python": "python3 / python (requires python-docx)",
+  "output_root": "output/",
+  "default_score": {
+    "chinese": {
+      "full_score": 50,
+      "system": "五档+加减分"
+    },
+    "english": {
+      "full_score": 15,
+      "system": "内容6+语言9"
+    },
+    "comprehensive": {
+      "full_score": 45,
+      "system": "综能45"
+    }
+  }
+}

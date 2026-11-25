@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 运行时输出（不提交生成的 Word / 门禁报告）
+output/
+_work/
+*.docx
+*.doc
+*.pdf
+
+# 隐私与本地数据（若用户放入作文原文，禁止提交）
+*input*.json
+*原文*.json
+*学生*.docx
+个人/
+private/
+local/
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+.idea/
+.vscode/
+
+# 密钥与凭证（兜底）
+.env
+*.pem
+*.key
+credentials*.json
+secrets*

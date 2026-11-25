@@ -1,0 +1,731 @@
+{
+  "schema_version": "1.1",
+  "meta": {
+    "essay_type": "语文作文",
+    "grade": "初三",
+    "date": "2026-11-22",
+    "full_score": 50,
+    "score_system": "五档+加减分",
+    "exam_name": "九年级样例",
+    "source": "识别门禁 PASS 的转写文本",
+    "privacy_note": "本卷未出现身份信息，统一用该生/我"
+  },
+  "recognition_ref": {
+    "envelope_path": "assets/样例_识别回执.json",
+    "gate_file": "assets/样例_识别门禁.json",
+    "gate": "PASS",
+    "mode": "image_strict",
+    "core_word_status": "confirmed"
+  },
+  "transcription": {
+    "prompt_material": [
+      {
+        "block_id": "P1",
+        "role": "printed_prompt",
+        "color": "000000",
+        "text": "请以“理解劳动的美”为题，联系自己的一次真实经历写一篇文章。不少于600字。",
+        "flags": []
+      }
+    ],
+    "essay_body": [
+      {
+        "block_id": "B1",
+        "para_id": "B1",
+        "role": "student_handwriting",
+        "color": "003399",
+        "text": "那次校园值日，我在教学楼擦栏杆。劳动是光荣的。",
+        "flags": []
+      },
+      {
+        "block_id": "B2",
+        "para_id": "B2",
+        "role": "student_handwriting",
+        "color": "003399",
+        "text": "一开始我觉得劳动很重要，后来才明白要赓续岭南精神。",
+        "flags": []
+      },
+      {
+        "block_id": "B3",
+        "para_id": "B3",
+        "role": "student_handwriting",
+        "color": "003399",
+        "text": "我很累，妈妈很辛苦，我感动了。这件事让我明白。大家都要劳动，通过这件事，我学会了坚持。",
+        "flags": []
+      },
+      {
+        "block_id": "B4",
+        "para_id": "B4",
+        "role": "student_handwriting",
+        "color": "003399",
+        "text": "啊，劳动真美。这就是劳动，我们要传承。",
+        "flags": []
+      }
+    ],
+    "annotated_body": [
+      {
+        "para_id": "B1",
+        "segments": [
+          {
+            "text": "那次校园值日，我在教学楼擦栏杆。",
+            "role": "keep"
+          },
+          {
+            "text": "劳动是光荣的",
+            "role": "delete",
+            "change_id": "M2",
+            "strike": true
+          },
+          {
+            "text": "那次擦栏杆，我懂了劳动的美",
+            "role": "change",
+            "change_id": "M2"
+          },
+          {
+            "text": "。",
+            "role": "keep"
+          }
+        ]
+      },
+      {
+        "para_id": "B2",
+        "segments": [
+          {
+            "text": "一开始我觉得",
+            "role": "keep"
+          },
+          {
+            "text": "劳动很重要",
+            "role": "delete",
+            "change_id": "M9",
+            "strike": true
+          },
+          {
+            "text": "劳动的美，就在手上的茧里",
+            "role": "change",
+            "change_id": "M9"
+          },
+          {
+            "text": "，后来才明白要",
+            "role": "keep"
+          },
+          {
+            "text": "赓续岭南精神",
+            "role": "delete",
+            "change_id": "M1",
+            "strike": true
+          },
+          {
+            "text": "理解劳动的美",
+            "role": "change",
+            "change_id": "M1"
+          },
+          {
+            "text": "。",
+            "role": "keep"
+          }
+        ]
+      },
+      {
+        "para_id": "B3",
+        "segments": [
+          {
+            "text": "我很累",
+            "role": "delete",
+            "change_id": "M3",
+            "strike": true
+          },
+          {
+            "text": "腰酸得直不起来",
+            "role": "change",
+            "change_id": "M3"
+          },
+          {
+            "text": "，",
+            "role": "keep"
+          },
+          {
+            "text": "妈妈很辛苦",
+            "role": "delete",
+            "change_id": "M4",
+            "strike": true
+          },
+          {
+            "text": "她的手泡得发白",
+            "role": "change",
+            "change_id": "M4"
+          },
+          {
+            "text": "，",
+            "role": "keep"
+          },
+          {
+            "text": "我感动了",
+            "role": "delete",
+            "change_id": "M5",
+            "strike": true
+          },
+          {
+            "text": "我心里忽然亮了一下",
+            "role": "change",
+            "change_id": "M5"
+          },
+          {
+            "text": "。",
+            "role": "keep"
+          },
+          {
+            "text": "这件事让我明白",
+            "role": "delete",
+            "change_id": "M6",
+            "strike": true
+          },
+          {
+            "text": "那一刻我才懂",
+            "role": "change",
+            "change_id": "M6"
+          },
+          {
+            "text": "。",
+            "role": "keep"
+          },
+          {
+            "text": "大家都要劳动",
+            "role": "delete",
+            "change_id": "M10",
+            "strike": true
+          },
+          {
+            "text": "我开始自己整理书桌",
+            "role": "change",
+            "change_id": "M10"
+          },
+          {
+            "text": "，",
+            "role": "keep"
+          },
+          {
+            "text": "通过这件事",
+            "role": "delete",
+            "change_id": "M12",
+            "strike": true
+          },
+          {
+            "text": "后来每次值日",
+            "role": "change",
+            "change_id": "M12"
+          },
+          {
+            "text": "，",
+            "role": "keep"
+          },
+          {
+            "text": "我学会了坚持",
+            "role": "delete",
+            "change_id": "M13",
+            "strike": true
+          },
+          {
+            "text": "我学会了把一件小事做完",
+            "role": "change",
+            "change_id": "M13"
+          },
+          {
+            "text": "。",
+            "role": "keep"
+          }
+        ]
+      },
+      {
+        "para_id": "B4",
+        "segments": [
+          {
+            "text": "啊，劳动真美",
+            "role": "delete",
+            "change_id": "M11",
+            "strike": true
+          },
+          {
+            "text": "风很轻，我的手很酸，心里却亮",
+            "role": "change",
+            "change_id": "M11"
+          },
+          {
+            "text": "。",
+            "role": "keep"
+          },
+          {
+            "text": "这就是劳动",
+            "role": "delete",
+            "change_id": "M8",
+            "strike": true
+          },
+          {
+            "text": "我想把这些汗，认真流下去",
+            "role": "change",
+            "change_id": "M8"
+          },
+          {
+            "text": "，",
+            "role": "keep"
+          },
+          {
+            "text": "我们要传承",
+            "role": "keep"
+          },
+          {
+            "text": "。",
+            "role": "keep"
+          },
+          {
+            "text": "原来流过的汗，会变成看得见的光",
+            "role": "add",
+            "change_id": "M7"
+          },
+          {
+            "text": "劳动的美，不在话里，在手上",
+            "role": "add",
+            "change_id": "M14"
+          }
+        ]
+      }
+    ]
+  },
+  "prompt_analysis": {
+    "material_keywords": [
+      "理解劳动的美"
+    ],
+    "core_word": "理解劳动的美",
+    "intent": "由一次真实劳动经历理解劳动之美",
+    "core_word_status": "confirmed",
+    "prompt_available": true,
+    "core_word_source": "题目材料",
+    "reliability_note": ""
+  },
+  "scoring": {
+    "band": "二类卷",
+    "band_range": [
+      40,
+      44
+    ],
+    "dims": {
+      "立意": "核心词被替换，中心偏离材料",
+      "内容选材": "有擦栏杆的真实经历，但细节偏空",
+      "结构语言": "首尾未呼应，部分句式套路化",
+      "书写卷面": "书写工整，卷面整洁，无硬扣"
+    },
+    "base_score": 42,
+    "bonuses": [
+      {
+        "item": "立意深刻",
+        "pts": 1
+      }
+    ],
+    "deductions": [
+      {
+        "item": "错别字3个",
+        "pts": 1
+      }
+    ],
+    "final_score": 42,
+    "estimate_range": [
+      40,
+      44
+    ],
+    "score_source": "卷面实分",
+    "blind_note": "",
+    "evidence_refs": [
+      "para:B2",
+      "para:B3"
+    ],
+    "rubric_fingerprint": "广东省2026中考作文五档标准｜语文50分｜查证日期2026-11-22"
+  },
+  "triage": {
+    "adaptable": true,
+    "reason": "核心词偏移但叙事骨架完整，适配最小改动"
+  },
+  "change_list": [
+    {
+      "id": "M1",
+      "para": "B2",
+      "original": "赓续岭南精神",
+      "changed": "理解劳动的美",
+      "type": "换",
+      "chars": 6,
+      "reason": "核心词被替换，最大失分点",
+      "point_gain": "立意回扣材料",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "题目啥词，作文就用啥词",
+      "if_skipped": "立意偏，压入三类卷",
+      "whitelist": false
+    },
+    {
+      "id": "M2",
+      "para": "B1",
+      "original": "劳动是光荣的",
+      "changed": "那次擦栏杆，我懂了劳动的美",
+      "type": "换",
+      "chars": 13,
+      "reason": "开头没点题，中心不突出",
+      "point_gain": "首段末句点题",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "开头最后一句点一下题",
+      "if_skipped": "老师30秒看不到中心",
+      "whitelist": false
+    },
+    {
+      "id": "M3",
+      "para": "B3",
+      "original": "我很累",
+      "changed": "腰酸得直不起来",
+      "type": "换",
+      "chars": 7,
+      "reason": "空话，材料不具体",
+      "point_gain": "材料具体生动",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "写身体感觉，别写我很累",
+      "if_skipped": "细节空，进不了二类",
+      "whitelist": false
+    },
+    {
+      "id": "M4",
+      "para": "B3",
+      "original": "妈妈很辛苦",
+      "changed": "她的手泡得发白",
+      "type": "换",
+      "chars": 7,
+      "reason": "概括化，没有画面",
+      "point_gain": "材料具体生动",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "写一个看得见的细节",
+      "if_skipped": "缺少真情实感",
+      "whitelist": false
+    },
+    {
+      "id": "M5",
+      "para": "B3",
+      "original": "我感动了",
+      "changed": "我心里忽然亮了一下",
+      "type": "换",
+      "chars": 9,
+      "reason": "直白抒情，缺少转折",
+      "point_gain": "语言得体流畅",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "感动换成心里的变化",
+      "if_skipped": "语言平，加分无望",
+      "whitelist": false
+    },
+    {
+      "id": "M6",
+      "para": "B3",
+      "original": "这件事让我明白",
+      "changed": "那一刻我才懂",
+      "type": "换",
+      "chars": 6,
+      "reason": "过渡句套路化",
+      "point_gain": "结构照应",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "那一刻，比才明白有力",
+      "if_skipped": "结构松散",
+      "whitelist": false
+    },
+    {
+      "id": "M7",
+      "para": "B4",
+      "original": "（此处增加）",
+      "changed": "原来流过的汗，会变成看得见的光",
+      "type": "补",
+      "chars": 15,
+      "reason": "结尾没回扣核心词",
+      "point_gain": "尾段回扣闭环",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "结尾把劳动和美连起来",
+      "if_skipped": "首尾不呼应，降档",
+      "whitelist": true
+    },
+    {
+      "id": "M8",
+      "para": "B4",
+      "original": "这就是劳动",
+      "changed": "我想把这些汗，认真流下去",
+      "type": "换",
+      "chars": 12,
+      "reason": "喊口号，不是自己的话",
+      "point_gain": "有真情实感",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "写我以后要怎么做",
+      "if_skipped": "套作嫌疑",
+      "whitelist": false
+    },
+    {
+      "id": "M9",
+      "para": "B2",
+      "original": "劳动很重要",
+      "changed": "劳动的美，就在手上的茧里",
+      "type": "换",
+      "chars": 12,
+      "reason": "抽象议论，脱离叙事",
+      "point_gain": "立意明确",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "把美放在看得见的地方",
+      "if_skipped": "中心不突出",
+      "whitelist": false
+    },
+    {
+      "id": "M10",
+      "para": "B3",
+      "original": "大家都要劳动",
+      "changed": "我开始自己整理书桌",
+      "type": "换",
+      "chars": 9,
+      "reason": "从我开始，不要写大家",
+      "point_gain": "有真情实感",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "写自己的一个动作",
+      "if_skipped": "空洞，像背作文",
+      "whitelist": false
+    },
+    {
+      "id": "M11",
+      "para": "B4",
+      "original": "啊，劳动真美",
+      "changed": "风很轻，我的手很酸，心里却亮",
+      "type": "换",
+      "chars": 14,
+      "reason": "感叹式结尾，套路化",
+      "point_gain": "语言优美（加分）",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "用三种感觉收尾",
+      "if_skipped": "像模板作文",
+      "whitelist": false
+    },
+    {
+      "id": "M12",
+      "para": "B3",
+      "original": "通过这件事",
+      "changed": "后来每次值日",
+      "type": "换",
+      "chars": 6,
+      "reason": "万能开头，反模板扣分",
+      "point_gain": "结构严谨",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "后来每次，比空话自然",
+      "if_skipped": "套作风险高",
+      "whitelist": false
+    },
+    {
+      "id": "M13",
+      "para": "B3",
+      "original": "我学会了坚持",
+      "changed": "我学会了把一件小事做完",
+      "type": "换",
+      "chars": 11,
+      "reason": "大而空，不贴合素材",
+      "point_gain": "立意深刻（加分）",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "小事做完，比坚持更真",
+      "if_skipped": "升华不贴素材",
+      "whitelist": false
+    },
+    {
+      "id": "M14",
+      "para": "B4",
+      "original": "（此处增加）",
+      "changed": "劳动的美，不在话里，在手上",
+      "type": "补",
+      "chars": 13,
+      "reason": "结尾没形成闭环",
+      "point_gain": "中心突出、结构照应",
+      "core_word_step": "核心词三步法·最小改动",
+      "oral_tip": "结尾再说一次关键词",
+      "if_skipped": "首尾断，升不了档",
+      "whitelist": true
+    }
+  ],
+  "change_summary": {
+    "count": 14,
+    "per_change_max_chars": 20,
+    "total_changed_chars": 140,
+    "unchanged_para_ratio": 0.72,
+    "within_threshold": true
+  },
+  "final_draft": [
+    {
+      "para_id": "B1",
+      "text": "那次校园值日，我在教学楼擦栏杆，第一次懂得理解劳动的美。"
+    },
+    {
+      "para_id": "B2",
+      "text": "一开始我觉得劳动很重要，后来才明白要理解劳动的美。"
+    },
+    {
+      "para_id": "B3",
+      "text": "腰酸得直不起来，她的手泡得发白，我心里忽然亮了一下。那一刻我才懂理解劳动的美，我开始自己整理书桌，后来每次值日，我学会了把一件小事做完。"
+    },
+    {
+      "para_id": "B4",
+      "text": "风很轻，我的手很酸，心里却亮。我想把这些汗，认真流下去，我们要传承。理解劳动的美，不在话里，在手上。"
+    }
+  ],
+  "variants": [
+    {
+      "id": "V1",
+      "type": "范式A·材料名言导语型",
+      "trigger_word": "劳动",
+      "prompt": "阅读材料：‘劳动是一切幸福的源泉。’请自选角度，联系自己的一次经历，自拟标题作文，不少于600字。",
+      "adapt_path": {
+        "事件层": {
+          "original": "擦栏杆",
+          "changed": "擦栏杆",
+          "why": "事件不动，保住真实经历",
+          "how": "原样保留这段，不改事情本身"
+        },
+        "品质层": {
+          "original": "我很累",
+          "changed": "认真把小事做完",
+          "why": "扣住题目关键词，突出品质",
+          "how": "把感受句换成一句品质句"
+        },
+        "意义层": {
+          "original": "劳动创造价值",
+          "changed": "幸福是汗换来的",
+          "why": "回扣名言，完成结尾闭环",
+          "how": "结尾写一句和名言呼应的话"
+        }
+      },
+      "audit_thinking": [
+        "题眼是‘幸福’二字",
+        "核心词要从名言里找",
+        "别写成空洞歌颂劳动"
+      ],
+      "writing_thinking": [
+        "开头点名言",
+        "中间写擦栏杆经过",
+        "结尾回扣幸福"
+      ],
+      "adapt_thinking": [
+        "事件层不动",
+        "品质层调一调",
+        "意义层重写"
+      ],
+      "reuse_material": "同一擦栏杆素材，另需准备整理书桌的反例素材",
+      "full_score_points": [
+        "标题含劳动关键词",
+        "结尾回扣名言",
+        "有真实细节"
+      ],
+      "risk": "中",
+      "difficulty": "中",
+      "anti_collision": "不可照搬原题结尾句，须换成名言里的‘幸福’",
+      "core_word": "劳动"
+    },
+    {
+      "id": "V2",
+      "type": "范式C·概念关系思辨型",
+      "trigger_word": "快与慢",
+      "prompt": "请以‘快与慢’为题，写明二者的关系，联系生活，写出自己的思考。不少于600字。",
+      "adapt_path": {
+        "事件层": {
+          "original": "擦栏杆",
+          "changed": "慢慢擦干净栏杆",
+          "why": "让事件承担‘慢’的含义",
+          "how": "在过程里加一句慢下来的动作"
+        },
+        "品质层": {
+          "original": "认真",
+          "changed": "不急着完成",
+          "why": "把品质对准快与慢关系",
+          "how": "把品质句改成不急着完成"
+        },
+        "意义层": {
+          "original": "劳动的美",
+          "changed": "慢做好一件事，反而更快",
+          "why": "写出快与慢的转化关系",
+          "how": "结尾用‘诚然…然而…’写两句"
+        }
+      },
+      "audit_thinking": [
+        "题眼是二者关系",
+        "不能只歌颂一面",
+        "要写出转化"
+      ],
+      "writing_thinking": [
+        "开头解释快与慢",
+        "中间放慢擦栏杆素材",
+        "结尾写辩证关系"
+      ],
+      "adapt_thinking": [
+        "事件层加慢动作",
+        "品质层改不急",
+        "意义层写转化"
+      ],
+      "reuse_material": "擦栏杆可套，另需赶作业的反例素材",
+      "full_score_points": [
+        "写出关系而非单向歌颂",
+        "诚然然而的层次",
+        "两端都有生活例子"
+      ],
+      "risk": "高",
+      "difficulty": "难",
+      "anti_collision": "本题无现成核心词可抄，禁止用万能开头",
+      "core_word": "快与慢"
+    }
+  ],
+  "method_notes": {
+    "实战步骤": [
+      "第一步：把题目关键词圈出来，原样写进标题",
+      "第二步：开头最后一句点题，结尾再回扣一次",
+      "第三步：不换故事，只改细节和感受",
+      "第四步：检查字数、错别字、真实名字",
+      "第五步：合上书，30秒说出中心"
+    ],
+    "操作步骤与方法": [
+      "删：去掉口号和空话",
+      "换：把概括换成看得见的细节",
+      "补：结尾补80到120字回扣核心词",
+      "查：三处见核心词，硬扣全绿"
+    ],
+    "底层逻辑": [
+      "阅卷前30秒先看标题、首尾和卷面，中段细节只负责验证，所以先拨定档开关",
+      "核心词被替换等于立意偏移，直接压到二类，这是最大失分点",
+      "孩子考场能复现的方案才有价值，能改的地方必须少而准"
+    ],
+    "5分钟自检清单": [
+      "标题里有题目关键词吗",
+      "开头结尾都点题了吗",
+      "字数够600了吗",
+      "有真实名字要改掉吗",
+      "合上书能说出中心吗"
+    ]
+  },
+  "multi_path": {
+    "routes": [
+      {
+        "id": "W1",
+        "call_id": "sample-W1-001",
+        "timestamp": "2026-11-22T11:51:00",
+        "output_hash": "dummy",
+        "conclusion": "结论：核心词偏移1处，硬错误2处，需定点替换"
+      },
+      {
+        "id": "W2",
+        "call_id": "sample-W2-002",
+        "timestamp": "2026-11-22T11:52:00",
+        "output_hash": "dummy",
+        "conclusion": "结论：补足定档开关后可冲一类下沿"
+      },
+      {
+        "id": "W3",
+        "call_id": "sample-W3-003",
+        "timestamp": "2026-11-22T11:53:00",
+        "output_hash": "dummy",
+        "conclusion": "结论：14处改动20分钟内可复现，保留"
+      }
+    ],
+    "verdict": {
+      "consensus": "CONFIRMED",
+      "裁决轮_call_id": "sample-arbit-004"
+    },
+    "frozen": true
+  },
+  "doubts": []
+}

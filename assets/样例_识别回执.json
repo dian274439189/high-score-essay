@@ -1,0 +1,148 @@
+{
+  "schema_version": "recognition_envelope@v1",
+  "task_id": "sample-20261122-chinese-01",
+  "provenance": {
+    "source_skill_version": "v2.0.1",
+    "l1_read_at": "2026-11-22T11:50:00",
+    "read_files": [
+      "SKILL.md#L1",
+      "references/L1_识别核心.md",
+      "references/三步口径.md#第一步"
+    ],
+    "executor": "sample-generator"
+  },
+  "pages": [
+    {
+      "page_index": 1,
+      "red_pixel_ratio": 0.0,
+      "red_layer_text": "（无）",
+      "layer_note": "AI 独立复核，无红批可依",
+      "read_calls": 5
+    }
+  ],
+  "crops": [
+    {
+      "crop_id": "C1",
+      "block_id": "B1",
+      "page": 1,
+      "bbox": [
+        120,
+        300,
+        1220,
+        800
+      ],
+      "native_size": "1100x500",
+      "upscale_factor": 3,
+      "read_call_index": 2
+    },
+    {
+      "crop_id": "C2",
+      "block_id": "B2",
+      "page": 1,
+      "bbox": [
+        120,
+        820,
+        1220,
+        1320
+      ],
+      "native_size": "1100x500",
+      "upscale_factor": 3,
+      "read_call_index": 3
+    },
+    {
+      "crop_id": "C3",
+      "block_id": "B3",
+      "page": 1,
+      "bbox": [
+        120,
+        1340,
+        1220,
+        1840
+      ],
+      "native_size": "1100x500",
+      "upscale_factor": 4,
+      "read_call_index": 4
+    },
+    {
+      "crop_id": "C4",
+      "block_id": "B4",
+      "page": 1,
+      "bbox": [
+        120,
+        1860,
+        1220,
+        2360
+      ],
+      "native_size": "1100x500",
+      "upscale_factor": 3,
+      "read_call_index": 5
+    }
+  ],
+  "transcription": [
+    {
+      "block_id": "P1",
+      "role": "printed_prompt",
+      "color": "000000",
+      "text": "请以“理解劳动的美”为题，联系自己的一次真实经历写一篇文章。不少于600字。",
+      "flags": []
+    },
+    {
+      "block_id": "B1",
+      "role": "student_handwriting",
+      "color": "003399",
+      "text": "那次校园值日，我在教学楼擦栏杆。",
+      "flags": []
+    },
+    {
+      "block_id": "B2",
+      "role": "student_handwriting",
+      "color": "003399",
+      "text": "一开始我觉得劳动是光荣的，后来才明白要理解劳动的美。",
+      "flags": [
+        "原文如此"
+      ]
+    },
+    {
+      "block_id": "B3",
+      "role": "student_handwriting",
+      "color": "003399",
+      "text": "腰酸得直不起来时，我想起她那双泡得发白的手。",
+      "flags": []
+    },
+    {
+      "block_id": "B4",
+      "role": "student_handwriting",
+      "color": "003399",
+      "text": "原来流过的汗，会变成看得见的光。",
+      "flags": []
+    }
+  ],
+  "core_word_check": [
+    {
+      "word": "理解劳动的美",
+      "source": "prompt",
+      "status": "confirmed",
+      "recrop_ref": "C2"
+    }
+  ],
+  "doubts": [],
+  "retake": {
+    "required": false,
+    "reason": "",
+    "instructions": ""
+  },
+  "self_check": {
+    "color_audit": "none missing",
+    "privacy_hits": 0,
+    "read_calls_per_page": {
+      "1": 5
+    },
+    "ambiguous_recheck_coverage": 1.0,
+    "error_patterns_appended": true,
+    "sample_recheck": {
+      "total": 3,
+      "passed": 3
+    }
+  },
+  "gate": ""
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "task_id": "sample-20261122-chinese-01",
+  "gate": "PASS",
+  "computed_at": "2026-11-22T11:50:10",
+  "source_skill_version": "v2.0.1",
+  "envelope_sha256": "dfcb5f996295799f6ceed000cbca3b1dd16364aa3297f0fe9e6a43c692ad2106",
+  "metrics": {
+    "layer_report": 1.0,
+    "crop_coverage": 1.0,
+    "read_budget": 1.0,
+    "ambiguous_recheck": 1.0,
+    "doubt_closure": 1.0,
+    "core_word_confirm": 1.0,
+    "privacy_hits": 0,
+    "sample_fidelity": 1.0
+  },
+  "failures": [],
+  "note": "示例门禁文件；实跑时必须由 verify_recognition_gate.py 重新计算生成"
+}
